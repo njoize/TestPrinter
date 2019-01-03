@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectshoponline.app_new_tabhost">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bw_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bw_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".TabHostMENU"></activity>
+
+        <activity android:name=".Tab_Home"></activity>
+        <activity android:name=".Page_1"></activity>
+        <activity android:name=".Page_2"></activity>
+        <activity android:name=".Page_3"></activity>
+        <activity android:name=".Page_4"></activity>
+
+        <activity android:name=".Page_Login"></activity>
+        <activity android:name=".Page_Menu"></activity>
+        <activity android:name=".Show_members_TextView"></activity>
+
+        <activity android:name=".Show_members_textview_1"></activity>
+
+        <activity android:name=".Page_get_member"></activity>
+
+        <activity android:name=".Page_Web_1"></activity>
+        <activity android:name=".My_Profile"></activity>
+
+        <activity android:name=".Show_0"></activity>
+        <activity android:name=".Show_0_Detail"></activity>
+        <activity android:name=".Detail"></activity>
+
+
+        <activity android:name=".Page_Detail_And_Print"></activity>
+
+
+
+    </application>
+
+</manifest>
